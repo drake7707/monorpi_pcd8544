@@ -102,6 +102,7 @@ namespace TestLCD
 
 
         private const byte MONOCHROME_DITHER_LEVEL = 1;
+        // source: http://pippin.gimp.org/a_dither/
         private float DitherFunction(float input, int x, int y, DitheringTypeEnum pattern, byte levels)
         {
             byte c = 0;
